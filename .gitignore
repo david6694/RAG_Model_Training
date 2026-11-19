@@ -1,0 +1,40 @@
+# Python & Virtualenv
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.mypy_cache/
+.pytest_cache/
+.coverage
+
+# Build / Distribution
+build/
+dist/
+*.egg-info/
+
+# Data outputs & processed index (keep directory structure)
+data/processed/*
+!data/processed/.gitkeep
+data/output/search_results/*
+!data/output/search_results/.gitkeep
+data/output/search_results_and_answer/*
+!data/output/search_results_and_answer/.gitkeep
+
+# Private & raw data
+data/datasets/private/
+data/raw/*
+!data/raw/.gitkeep
+
+# 42 evaluation & exam artifacts
+evaluations/
+exams/
+moulinette-ubuntu
+*.pdf
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
